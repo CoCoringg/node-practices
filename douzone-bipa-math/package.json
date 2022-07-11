@@ -1,5 +1,5 @@
 {
-  "name": "project-ex02",
+  "name": "douzone-bipa-math",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,8 +8,5 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "douzone-bipa-math": "file:../douzone-bipa-math"
-  }
+  "license": "ISC"
 }
