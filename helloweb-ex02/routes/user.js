@@ -8,14 +8,14 @@ router.route('').get(function(req, resp){
     });
 });
 
+router.route('/join').get(function(req, resp){
+    resp.render('user/join');
+});
+
 router.route('/:no').get(function(req, resp){
     resp.render('user/info2', {
         no: req.params.no || 0
     });
-});
-
-router.route('/join').get(function(req, resp){
-    resp.render('user/join');
 });
 
 router.route('/join').post(function(req, resp){
